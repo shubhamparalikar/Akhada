@@ -1,0 +1,353 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+android:padding="0dp"
+
+android:background="@drawable/patternbg"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+        
+        android:layout_alignParentTop="true"
+        android:background="@color/cardview_shadow_start_color">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:folding-cell="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical">
+
+        <com.ramotion.foldingcell.FoldingCell xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/folding_cell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp">
+
+            <FrameLayout
+                android:id="@+id/cell_content_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4992ea"
+                android:padding="2dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/diet1"
+                    android:textSize="18sp"
+                    android:fontFamily="serif"
+                    android:background="@drawable/patternblue"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:gravity="center_vertical|center_horizontal" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/cell_title_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e4d141"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+
+                <TextView
+                    android:layout_width="0dp"
+
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/patternblue"
+                    android:fontFamily="serif"
+                    android:text="WHY DIET IS IMP?\nread here to know more:"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="2"
+                    android:background="@drawable/diet" />
+
+            </LinearLayout>
+
+        </com.ramotion.foldingcell.FoldingCell>
+
+        <com.ramotion.foldingcell.FoldingCell xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/folding_cell2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp">
+
+            <FrameLayout
+                android:id="@+id/cell_content_view2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4992ea"
+                android:padding="2dp"
+
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:background="@drawable/patternblue"
+                    android:text="@string/diet2"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/holo_blue_bright"
+                    android:fontFamily="serif"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical|center_horizontal" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/cell_title_view2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4992ea"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+
+                <TextView
+                    android:layout_width="0dp"
+
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/patternblue"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="CONFUSED ABOUT WHAT TO EAT?\n VEG vs NON-VEG"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:textSize="10sp"
+                    android:textStyle="normal|bold" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="2"
+                    android:background="@drawable/nutri" />
+            </LinearLayout>
+
+        </com.ramotion.foldingcell.FoldingCell>
+
+        <com.ramotion.foldingcell.FoldingCell xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/folding_cell3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp">
+
+            <FrameLayout
+                android:id="@+id/cell_content_view3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4992ea"
+                android:padding="2dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal|bold"
+                    android:padding="3dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:fontFamily="serif"
+                    android:textSize="18sp"
+                    android:background="@drawable/patternblue"
+                    android:text="@string/stickingtodiet"
+                    android:gravity="center_vertical|center_horizontal" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/cell_title_view3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e4d141"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/patternblue"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Quick tips to add to your knowledge to loose weight"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="2"
+                    android:background="@drawable/loss" />
+            </LinearLayout>
+
+        </com.ramotion.foldingcell.FoldingCell>
+        <com.ramotion.foldingcell.FoldingCell xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/folding_cell4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp">
+
+            <FrameLayout
+                android:id="@+id/cell_content_view4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4992ea"
+                android:padding="2dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/patternblue"
+                    android:text="@string/weightgain"
+                    android:fontFamily="serif"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/holo_blue_bright"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="gravity"
+                    android:gravity="center_vertical|center_horizontal" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/cell_title_view4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4992ea"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/patternblue"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Quick tips for gaining weight "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="2"
+                    android:background="@drawable/gain" />
+            </LinearLayout>
+
+        </com.ramotion.foldingcell.FoldingCell>
+        <com.ramotion.foldingcell.FoldingCell xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/folding_cell5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp">
+
+            <FrameLayout
+                android:id="@+id/cell_content_view5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4992ea"
+                android:padding="2dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/patternblue"
+                    android:paddingBottom="50dp"
+                    android:text="@string/stickingtodiet"
+                    android:textSize="16sp"
+                    android:fontFamily="serif"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:gravity="center_vertical|center_horizontal" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/cell_title_view5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e4d141"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+
+                <TextView
+                    android:layout_width="0dp"
+
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/patternblue"
+                    android:fontFamily="serif"
+                    android:text="Not able to follow your diet?"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="2"
+                    android:background="@drawable/sticking" />
+
+            </LinearLayout>
+
+        </com.ramotion.foldingcell.FoldingCell>
+    </LinearLayout>
+</ScrollView>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewdiet"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adUnitId="@string/unit_id_diet"
+        ads:adSize="BANNER"/>
+    </RelativeLayout>

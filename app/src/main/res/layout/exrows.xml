@@ -1,0 +1,114 @@
+<android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rlayout"
+        android:background="@drawable/dumbell">
+
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+
+            android:layout_centerHorizontal="true"
+            android:id="@+id/cardtitle"
+            android:textStyle="normal|bold"
+            android:textColor="?android:attr/colorAccent"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:background="@drawable/patternbg"
+            android:layout_height="35dp" />
+
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@mipmap/delete"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/deleteimage" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titlereps"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/repsvalue"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_bright"
+            android:fontFamily="serif"
+            android:textSize="14sp"
+            android:layout_width="50dp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleweight"
+            android:layout_alignStart="@+id/titleweight"
+            android:id="@+id/weightsvalue"
+            android:fontFamily="serif"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_bright"
+            android:layout_width="50dp"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="REPS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titlereps"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textColor="@android:color/holo_orange_dark"
+            android:fontFamily="serif-monospace"
+            android:layout_below="@+id/cardtitle"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/setsvalue"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="14sp"
+            android:layout_below="@+id/titlesets"
+            android:layout_alignStart="@+id/titlesets"
+            android:layout_alignEnd="@+id/titlesets" />
+
+        <TextView
+            android:text="WEIGHT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleweight"
+            android:textSize="12sp"
+            android:textStyle="normal|bold"
+            android:textAlignment="textEnd"
+            android:textColor="@android:color/holo_orange_dark"
+            android:fontFamily="serif-monospace"
+            android:layout_below="@+id/cardtitle"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="SETS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titlesets"
+            android:textSize="12sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_orange_dark"
+            android:layout_below="@+id/cardtitle"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+    </android.support.v7.widget.CardView>

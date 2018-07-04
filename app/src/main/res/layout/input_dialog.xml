@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="@drawable/patternbg"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="EXERCISE NAME:"
+            android:layout_marginTop="10dp"
+            android:textColor="?android:attr/colorAccent"
+            android:textStyle="normal|bold"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/edexercisename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvname"
+            android:maxLines="1"
+            android:maxLength="50"
+            android:lines="1"
+            android:textColorHint="#f4e60c0c"
+            android:textColorHighlight="@android:color/holo_blue_bright"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:fontFamily="serif"
+            android:textStyle="normal|bold"
+            android:textColor="?android:attr/colorAccent" />
+
+        <TextView
+            android:id="@+id/tvsets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edexercisename"
+            android:gravity="center"
+            android:text="Number of sets:"
+            android:layout_marginTop="10dp"
+            android:textColor="?android:attr/colorAccent"
+            android:typeface="serif"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:id="@+id/edsets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvsets"
+            android:textColorHighlight="@android:color/holo_blue_bright"
+            android:lines="1"
+            android:inputType="number"
+            android:textColor="?android:attr/colorAccent" />
+
+
+        <TextView
+            android:id="@+id/tvreps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edsets"
+            android:gravity="center"
+            android:text="Number of reps:"
+            android:layout_marginTop="10dp"
+            android:textColor="?android:attr/colorAccent"
+            android:typeface="serif"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:id="@+id/edreps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHighlight="@android:color/holo_blue_bright"
+            android:layout_below="@id/tvreps"
+            android:lines="1"
+            android:textColor="?attr/colorAccent" />
+
+        <TextView
+            android:id="@+id/tvhintreps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edreps"
+            android:text="eg: 15-10-10"
+            android:textSize="10sp"
+            android:textColor="@android:color/holo_orange_light" />
+
+        <TextView
+            android:id="@+id/tvweights"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvhintreps"
+            android:gravity="center"
+            android:text="Weight:"
+            android:layout_marginTop="10dp"
+            android:textColor="?android:attr/colorAccent"
+            android:typeface="serif"
+            android:textStyle="normal|bold" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHighlight="@android:color/holo_blue_bright"
+            android:lines="1"
+            android:id="@+id/edweight"
+            android:layout_below="@id/tvweights"
+            android:textColor="?attr/colorAccent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:id="@+id/addtoschedule"
+
+        android:background="@android:color/holo_blue_bright"
+        android:typeface="serif"
+        android:textStyle="normal|bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="5dp"
+        android:layout_alignBaseline="@+id/cancel"
+        android:layout_alignBottom="@+id/cancel"
+        android:layout_alignParentEnd="true"
+        android:elevation="6dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CANCEL"
+        android:id="@+id/cancel"
+
+        android:background="@android:color/holo_blue_bright"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/edweight"
+        android:layout_alignParentStart="true"
+        android:elevation="5dp" />
+
+
+</RelativeLayout>
+
+

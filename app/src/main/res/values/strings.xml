@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">AKHADA(workout planner)</string>
+    <string name="spinner_title">which muscle you want to work on?</string>
+    <string name="title_activity_diet_tips">DietTips</string>
+    <string name="title_activity_cardio_tips">CardioTips</string>
+    <string name="title_activity_dos_donts">DosDonts</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">HEY FITNESS FREAK!!</string>
+    <string name="slide_1_desc">The easiest way to manage all your workout needs is through this app.</string>
+
+    <string name="slide_2_title">CUSTOMIZED WORKOUT</string>
+    <string name="slide_2_desc">Set your daily workout schedule and don\'t trouble your trainer..</string>
+
+    <string name="slide_3_title">Great Fitness Tips from our expert trainer</string>
+    <string name="slide_3_desc">Best fitness tips for diet, weight training and cardio etc..</string>
+
+    <string name="slide_4_title">ALL SET?</string>
+    <string name="slide_4_desc">Start working out with us now..</string>
+
+    <string name="unit_id_home">ca-app-pub-3020470730447296/3472676168</string>
+    <string name="unit_id_schedule">ca-app-pub-3020470730447296/4949409365</string>
+    <string name="unit_id_diet">ca-app-pub-3020470730447296/6426142560</string>
+    <string name="unit_id_cardio">ca-app-pub-3020470730447296/7902875765</string>
+    <string name="unit_id_dos"> ca-app-pub-3020470730447296/8003620565</string>
+
+
+
+    <string name="diet1">Believe it or not, DIET is the most important factor for
+        muscle growth to occur. Without proper nutrition, supplementation and
+        hydration you will make little or no gains and find yourself very frustrated
+        and most likely quit because you won\'t be seeing any gains..\n Proper nutrition which
+        contains enough vitamins, minerals, proteins, and a little bit of fat is necessary for any
+        kind of person which is targeting muscle growth or fat reduction.</string>
+
+    <string name="diet2">Body building constitutes 70-30 ratio of diet and exercise respectively.\n
+    Mainly people suffer with the issue of not meeting the desired amount of protein for their body.
+     No doubt there is more protein content in non vegetarian meals but you can still fulfill your protein intake with some
+    vegan diet which can contain things like BROCCOLI, TOFU, PANEER, SOYBEAN, DOUBLE TONNED MILK etc. These all contains enough amount of
+    protein if you are a VEGAN. Apart from this meat eaters can easily fulfill their need of protien, other sources of food which are rich
+    in protein content are: EGGS, CHICKEN, FISH, RED MEAT etc.. </string>
+
+     <string name="stickingtodiet">Everyone makes commitment towards building muscles while gaining or losing weight
+    in the gym with the prescribed diet chart given by the trainer but most of them fails to stick to their proper diet routine.
+    These points will help you to stick to your diet and get the desired result:\n
+    1.Stay motivated.\n
+    2.Avoid temptation.\n
+    3.Don\'t punish yourself.\n
+    4.Don\'t go hungry.\n
+    5.Don\'t diet alone.\n
+    6.Prepare your routine well.\n</string>
+<string name="weightloss">The weight loss "TOPIC" is full of myths. People are being advised to do all sorts of crazy
+    things, most of which have no evidence behind them. Here are those small expert tips which will surely help you:\n
+    1.Drink Enough Water(4-5 lt per day). Especially Before Meal(4-5 lt per day).\n
+    2.Drink green tea , cook with coconut oil, cut back on added sugar.\n
+    3.Do light weight training with more repetitions.\n
+    4.Mainly focus on low carbs diet + low calories.\n
+    5.To develop muscle while losing weight you should add low carbs plus high protein to your diet schedule.\n
+
+</string>
+    <string name="weightgain">Although weight-loss strategies are ubiquitous in the fitness industry,
+    not every person in the world has that goal. How to gain weight:\n
+    1.Eat more calories than you expend.\n
+    2.Eat nutrient-dense, calorie-rich food.\n
+    3.Increase dietary fat intake.\n
+    4.Add a weight-gainer supplement.\n
+    5.Lift heavy weight.
+    </string>
+<string name="cardiostring">Cardio exercise is any exercise that raises your heart rate. Face it our bodies were made to move.
+        And we all know that to keep our muscles in shape we need to move them.\n
+        This movement makes them stronger and stronger muscles make for a more efficient and healthy body.\nBasically Cardio should be done by
+        each and everyone because it helps in gaining stamina which will be helpful in not only in the gym but in your daily day to day schedule also.
+    It burns more body fat in limited period of time, which is why including them in your fitness regime is a must.\n
+    They not only contribute to weight loss, but they can also help you gain good muscles and strengthen your immune system.
+    If you are doing cardio in the gym then you can do it yourself in your home or outdoor also, light jogging/running,
+    skipping, jumping jacks etc will be enough for a normal person if he/she is not targeting any kind of extreme goal.\n
+Aerobic activities that improve cardiovascular health include:\n
+1.Walking.\n
+2.Jogging or running.\n
+3.Cycling.\n
+3.Swimming.\n
+4.Aerobics.\n
+5.Rowing.\n
+6.Stair climbing.\n
+7.Hiking\n</string>
+
+    <string name="dosdonts">Common gym etiquette that should be followed by everyone:\n
+    Dos:\n
+    1.Do dress appropriately in the gym.\n
+    2.Do wear a deodorant so that you don\'t trouble others.\n
+    3.Do share equipment.\n
+    4.Do share the water.\n
+    5.Do place your weights back on the rack when you have finished with them.\n
+    6.Do keep your perspiration (sweat) to yourself.\n
+    7.Do stay at home if you are sick.\n
+    8.Do take a quick shower if you know there are others waiting on line to take a shower. \n\n
+    Don\'ts:\n
+    1.Don\’t talk on your cell phone on the gym floor.\n
+    2.Don\’t make loud noises.\n
+    3.Don\’t interrupt anyone while exercising\n
+    4.Don\’t carry your gym bag or personal belongings with you on the gym floor.\n
+    5.Don\’t offer unsolicited advice.\n
+    6.Don\’t stare.\n
+    </string>
+</resources>

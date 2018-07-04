@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/patternblue"
+            android:paddingTop="10dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/mondaycard"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="18dp"
+                android:clickable="true"
+                android:onClick="monday">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/patternbg"
+                    android:gravity="center"
+                    android:text="MON"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:typeface="serif" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/tuecard"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:onClick="tuesday">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/patternbg"
+                    android:gravity="center"
+                    android:text="TUE"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:typeface="serif" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/wedcard"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="19dp"
+                android:clickable="true"
+                android:onClick="wednesday">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/patternbg"
+                    android:gravity="center"
+                    android:text="WED"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:typeface="serif" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/thucard"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/mondaycard"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:clipChildren="false"
+                android:contextClickable="false"
+                android:onClick="thursday">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/patternbg"
+                    android:gravity="center"
+                    android:text="THU"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:typeface="serif" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/fricard"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/tuecard"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:onClick="friday">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/patternbg"
+                    android:gravity="center"
+                    android:text="FRI"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:typeface="serif" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/satcard"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/wedcard"
+                android:layout_marginEnd="19dp"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:onClick="saturday"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/patternbg"
+                    android:gravity="center"
+                    android:text="SAT"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:typeface="serif" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/suncard"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/fricard"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:onClick="sunday">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/patternbg"
+                    android:gravity="center"
+                    android:text="SUN"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:typeface="serif" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/selectedday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvadd"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:fontFamily="monospace"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/exrowrecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/selectedday" />
+
+            <TextView
+                android:id="@+id/tvadd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/fab"
+                android:layout_toStartOf="@+id/fab"
+                android:textColor="#de0707" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/satcard"
+                android:layout_alignTop="@+id/suncard"
+                android:layout_marginEnd="14dp"
+                android:layout_marginTop="11dp"
+                android:onClick="showDialog"
+                android:src="@mipmap/add"
+                fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+                fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right" />
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adViewschedule"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ads:adUnitId="@string/unit_id_schedule"
+                ads:adSize="BANNER"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
